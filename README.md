@@ -1,44 +1,11 @@
-# Strapi Starter Next 13, Tailwind, Typescript and Strapi
-
-note: This project was started with love by [Trecia](https://github.com/TreciaKS), [Daniel](https://github.com/malgamves) and [Paul](https://github.com/PaulBratslavsky). We were all new to Next 13 and Typescript. If you find any bugs or improvements feel free to create an issue. Thank you all for your support and participation.
-
-![demo-site](https://user-images.githubusercontent.com/6153188/231865321-0da5e81f-4832-4cce-bcd1-ecd79e9b9cc3.gif)
-
-
-## Hello Strapi
-
-Strapi Community Edition is a free and open-source headless CMS enabling you to manage any content, anywhere.
-
-- **Self-hosted or Cloud**: You can host and scale Strapi projects the way you want. You can save time by deploying to [Strapi Cloud](https://cloud.strapi.io/signups?source=github1) or deploy to the hosting platform you want**: AWS, Azure, Google Cloud, DigitalOcean.
-- **Modern Admin Pane**: Elegant, entirely customizable and a fully extensible admin panel.
-- **Multi-database support**: You can choose the database you prefer: PostgreSQL, MySQL, MariaDB, and SQLite.
-- **Customizable**: You can quickly build your logic by fully customizing APIs, routes, or plugins to fit your needs perfectly.
-- **Blazing Fast and Robust**: Built on top of Node.js and TypeScript, Strapi delivers reliable and solid performance.
-- **Front-end Agnostic**: Use any front-end framework (React, Next.js, Vue, Angular, etc.), mobile apps or even IoT.
-- **Secure by default**: Reusable policies, CORS, CSP, P3P, Xframe, XSS, and more.
-- **Powerful CLI**: Scaffold projects and APIs on the fly.
-
-## Features
-
-- **Content Types Builder**: Build the most flexible publishing experience for your content managers, by giving them the freedom to create any page on the go with [fields](https://docs.strapi.io/user-docs/content-manager/writing-content#filling-up-fields), components and [Dynamic Zones](https://docs.strapi.io/user-docs/content-manager/writing-content#dynamic-zones).
-- **Media Library**: Upload your images, videos, audio or documents to the media library. Easily find the right asset, edit and reuse it.
-- **Internationalization**: The Internationalization (i18n) plugin allows Strapi users to create, manage and distribute localized content in different languages, called "locales
-- **Role Based Access Control**: Create an unlimited number of custom roles and permissions for admin and end users.
-- **GraphQL or REST**: Consume the API using REST or GraphQL
-
-You can unlock additional features such as SSO, Audit Logs, Review Workflows in [Strapi Cloud](https://cloud.strapi.io/login?source=github1) or [Strapi Enterprise](https://strapi.io/enterprise?source=github1).
-
+# Digital Ocean App Platform - NextJS, Tailwind, Typescript, and Strapi
 
 ## Getting Started
-
-If you prefer videos that guide you through the setup process you can find them [here](https://github.com/strapi/nextjs-corporate-starter/issues/71)
 
 1. Clone the repository locally:
 
 ```bash
   git clone https://github.com/strapi/nextjs-corporate-starter.git
-    or
-  gh repo clone strapi/nextjs-corporate-starter
 ```
 
 2. Run `setup` command to setup frontend and backend dependencies:
@@ -187,6 +154,7 @@ You can find the setting inside the `package.json` file inside the root folder.
   }
 }
 ```
+
 Go to the root folder and install the package, `yarn`
 You can start both apps by running `yarn dev`.
 
@@ -325,8 +293,9 @@ yarn repo:upstream
 ## FAQ
 
 ### How do I add additional pages?
+
 Check out [this video](https://youtu.be/EoVrTNA3geM) where I will guide on how to do this.
 
 ### How do I update my Strapi version?
-Check out this [this issue comment](https://github.com/strapi/nextjs-corporate-starter/issues/17#issuecomment-1558149967)
 
+Check out this [this issue comment](https://github.com/strapi/nextjs-corporate-starter/issues/17#issuecomment-1558149967)
