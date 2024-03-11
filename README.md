@@ -97,6 +97,12 @@ JWT_SECRET=tobemodified
 TRANSFER_TOKEN_SALT=tobemodified
 ```
 
+## Strapi - /frontend deployment
+
+```bash
+NEXT_PUBLIC_STRAPI_API_URL=<Digital Ocean Strapi URL>
+```
+
 ---
 
 ## Strapi Digital Ocean App Platform Docs
