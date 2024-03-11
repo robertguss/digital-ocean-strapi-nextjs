@@ -73,10 +73,6 @@ NEXT_PUBLIC_STRAPI_API_URL=http://localhost:1337
 
 # Deploying to Digital Ocean's App Platform
 
-## Strapi Digital Ocean App Platform Docs
-
-[Strapi Digital Ocean App Platform Docs](https://docs.strapi.io/dev-docs/deployment/digitalocean-app-platform#create-a-digitalocean-app)
-
 ## Strapi - /backend deployment
 
 ### Strapi Global Environment Variables
@@ -100,3 +96,9 @@ ADMIN_JWT_SECRET=tobemodified
 JWT_SECRET=tobemodified
 TRANSFER_TOKEN_SALT=tobemodified
 ```
+
+---
+
+## Strapi Digital Ocean App Platform Docs
+
+[Strapi Digital Ocean App Platform Docs](https://docs.strapi.io/dev-docs/deployment/digitalocean-app-platform#create-a-digitalocean-app)
