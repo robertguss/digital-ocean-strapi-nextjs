@@ -71,6 +71,20 @@ Next we need to switch to our `/frontend` directory and create our `.env` file a
 NEXT_PUBLIC_STRAPI_API_URL=http://localhost:1337
 ```
 
+# Deploying to Digital Ocean's App Platform
+
 ## Strapi Digital Ocean App Platform Docs
 
 [Strapi Digital Ocean App Platform Docs](https://docs.strapi.io/dev-docs/deployment/digitalocean-app-platform#create-a-digitalocean-app)
+
+### Strapi Global Environment Variables
+
+```bash
+APP_URL=${APP_URL}
+DATABASE_HOST=${db.HOSTNAME}
+DATABASE_PORT=${db.PORT}
+DATABASE_NAME=${db.DATABASE}
+DATABASE_USERNAME=${db.USERNAME}
+DATABASE_PASSWORD=${db.PASSWORD}
+NODE_ENV=production
+```
