@@ -15,7 +15,10 @@
   yarn setup
 ```
 
-3. Next, navigate to the `/backend` directory and set up the `.env` file. You can use the `.env.example` file as reference:
+> [!IMPORTANT]
+> You must use `yarn` to install the dependencies. If you use `npm`, you will encounter errors. You can install `yarn` by running `npm install -g yarn`. You should also be on a LTS version of Node.js.
+
+3. Next, navigate to the `backend` directory and set up the `.env` file. You can use the `.env.example` file as reference:
 
 ```bash
 HOST=localhost
