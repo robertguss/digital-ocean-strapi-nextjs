@@ -77,6 +77,8 @@ NEXT_PUBLIC_STRAPI_API_URL=http://localhost:1337
 
 [Strapi Digital Ocean App Platform Docs](https://docs.strapi.io/dev-docs/deployment/digitalocean-app-platform#create-a-digitalocean-app)
 
+## Strapi - /backend deployment
+
 ### Strapi Global Environment Variables
 
 ```bash
@@ -87,4 +89,14 @@ DATABASE_NAME=${db.DATABASE}
 DATABASE_USERNAME=${db.USERNAME}
 DATABASE_PASSWORD=${db.PASSWORD}
 NODE_ENV=production
+```
+
+### Strapi App Environment Variables
+
+```bash
+APP_KEYS="toBeModified1,toBeModified2"
+API_TOKEN_SALT=tobemodified
+ADMIN_JWT_SECRET=tobemodified
+JWT_SECRET=tobemodified
+TRANSFER_TOKEN_SALT=tobemodified
 ```
