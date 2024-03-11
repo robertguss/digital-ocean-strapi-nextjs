@@ -5,16 +5,17 @@
 1. Clone the repository locally:
 
 ```bash
-  git clone https://github.com/strapi/nextjs-corporate-starter.git
+  git clone git@github.com:robertguss/digital-ocean-strapi-nextjs.git
 ```
 
-2. Run `setup` command to setup frontend and backend dependencies:
+2. Change into the repo's directory and run the `yarn setup` command to setup frontend and backend dependencies:
 
 ```bash
+  cd digital-ocean-strapi-nextjs
   yarn setup
 ```
 
-3. Next, navigate to your `/backend` directory and set up your `.env` file. You can use the `.env.example` file as reference:
+3. Next, navigate to the `/backend` directory and set up the `.env` file. You can use the `.env.example` file as reference:
 
 ```bash
 HOST=localhost
@@ -35,17 +36,13 @@ TRANSFER_TOKEN_SALT=tobemodified
 
 You will be prompted to create your first admin user.
 
-![admin-user](https://user-images.githubusercontent.com/6153188/231865420-5f03a90f-b893-4057-9634-9632920a7d97.gif)
-
-Great. You now have your project running. Let's add some data.
+Great! Now that you have your project running, let's add some data.
 
 ## Seeding The Data
 
-We are going to use our DEITS feature which will alow to easily import data into your project.
+You can learn more about how this works in Strapi's documentation [here](https://docs.strapi.io/dev-docs/data-management).
 
-You can learn more about it in our documentation [here](https://docs.strapi.io/dev-docs/data-management).
-
-In the root of our project we have our `seed-data.tar.gz` file. We will use it to seed our data.
+In the root of the project there is a `seed-data.tar.gz` file. We will use it to seed our data.
 
 1. Open up your terminal and make sure you are still in you `backend` folder.
 
@@ -55,13 +52,7 @@ In the root of our project we have our `seed-data.tar.gz` file. We will use it t
   yarn strapi import -f ../seed-data.tar.gz
 ```
 
-![after-import](https://user-images.githubusercontent.com/6153188/231865491-05cb5818-a0d0-49ce-807e-a879f7e3070c.gif)
-
 This will import your data locally. Log back into your admin panel to see the newly imported data.
-
-Here is a quick video covering initial setup and data seeding.
-
-https://github.com/strapi/nextjs-corporate-starter/assets/6153188/80f00bf5-d17b-449d-8a0d-7f0d9614f40b
 
 ## Setting Up The Frontend
 
@@ -70,6 +61,8 @@ Next we need to switch to our `/frontend` directory and create our `.env` file a
 ```bash
 NEXT_PUBLIC_STRAPI_API_URL=http://localhost:1337
 ```
+
+---
 
 # Deploying to Digital Ocean's App Platform
 
