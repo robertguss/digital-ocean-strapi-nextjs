@@ -104,3 +104,9 @@ NEXT_PUBLIC_STRAPI_API_URL=<Digital Ocean Strapi URL>
 ## Strapi Digital Ocean App Platform Docs
 
 [Strapi Digital Ocean App Platform Docs](https://docs.strapi.io/dev-docs/deployment/digitalocean-app-platform#create-a-digitalocean-app)
+
+---
+
+# Credits
+
+This project is based on the [Strapi NextJS Corporate Starter](https://github.com/strapi/nextjs-corporate-starter). I have left the `backend` folder the same, but have created a fresh NextJS 14 application in the `frontend` folder.
